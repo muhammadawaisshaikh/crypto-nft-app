@@ -1,0 +1,19 @@
+@import '../../../assets/scss/variables.scss';
+
+.plus-btn {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 18px;
+    font-size: 40px;
+}
+
+h5 {
+    color: $grey-typo;
+    font-weight: 200;
+}
+
+h1 {
+    color: $white;
+    font-weight: 300;
+}
