@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'coin',
     loadChildren: () => import('./pages/coin/coin.module').then(m => m.CoinModule)
+  },
+  {
+    path: 'creator',
+    loadChildren: () => import('./pages/creator/creator.module').then(m => m.CreatorModule)
   }
 ];
 
