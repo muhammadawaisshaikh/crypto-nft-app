@@ -8,3 +8,19 @@ body {
 a {
     text-decoration: none !important;
 }
+
+.c-btn {
+    padding: 10px 35px;
+    width: 100%;
+    font-size: 25px;
+    border-radius: 19px;
+    &.purple {
+        background-color: $purple;
+    }
+    &.green {
+        background-color: $green;
+    }
+    &.dark-gray {
+        background-color: $dark-gray;
+    }
+}

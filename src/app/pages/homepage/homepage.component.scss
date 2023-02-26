@@ -1,4 +1,5 @@
 @import '../../../assets/scss/variables.scss';
+@import '../../../assets/scss/mixins.scss';
 
 .plus-btn {
     background-color: white;
@@ -16,4 +17,8 @@ h5 {
 h1 {
     color: $white;
     font-weight: 300;
+}
+
+.scrollable-area {
+    @include scroll-menu(auto, auto, transparent, white, 0 5px);
 }

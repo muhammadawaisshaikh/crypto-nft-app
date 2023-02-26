@@ -1,0 +1,16 @@
+@mixin scroll-menu($width, $height, $background, $color, $itemMargin) {
+    background-color: $background;
+    overflow: auto;
+    white-space: nowrap;
+    .item {
+        display: inline-block;
+        color: $color;
+        text-align: center;
+        width: $width;
+        height: $height;
+        margin: $itemMargin;
+        &.active {
+            border-bottom: 3px solid $color;
+        }
+    }
+}
